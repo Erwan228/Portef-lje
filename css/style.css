@@ -482,3 +482,7 @@ color: #000000;
     height: 390px;
   }
   
+  /*Ekstra arbeid*/
+  .Ekstra-arbeid {
+    background-image:linear-gradient(purple, lavender);
+  }
