@@ -483,6 +483,6 @@ color: #000000;
   }
   
   /*Ekstra arbeid*/
-  .Ekstra-arbeid {
+  .Ekstra-arbeid body{
     background-image:linear-gradient(lavender, purple);
   }
