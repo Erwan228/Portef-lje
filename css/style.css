@@ -487,3 +487,13 @@ color: #000000;
     background-image:linear-gradient(lavender, skyblue, purple);
     background-attachment: fixed;
   }
+
+  .ekstraLinker {
+    font-size: larger;
+    padding: 10px;
+  }
+
+  #githubParagraf {
+    font-size: large;
+    padding-top: 100px;
+  }
