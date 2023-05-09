@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Introduksjon-til-API/css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <title>DPS</title>
 </head>
+
 <body class="ff-dps">
-    <a href="finalfantasy-forside.html"><img src="/Introduksjon-til-API/images/images_ff/Meteor.png" alt="To the frontpage" id="meteor"></a> <!--Link til forsiden--><!--Regulere størrelsen-->
+    <a href="finalfantasy-forside.html"><img src="/images/images_ff/Meteor.png" alt="To the frontpage" id="meteor"></a>
+    <!--Link til forsiden--><!--Regulere størrelsen-->
     <div class="navigation"> <!--Aktiv lenke skal markeres-->
         <p class="ff-innhold-p"> <!--Navigasjon mellom de forskjellige rollene-->
             <!--Gir farge til navigasjonsknappene-->
@@ -16,54 +19,62 @@
             <span><a href="finalfantasy-healer.html" alt="Link to page about Healer" id="healer">Healer</a></span>
             <span class="bold">DPS</span>
         </p>
-    <!--Tittel-->
-    <h1 id="ff-innhold-Tittel">The Fierce DPS</h1> <!--Innhold-->
-    <h2 id="ff-innhold-h2">The DPS role is divided into three categories; Melee-DPS, Range-DPS and Magic-DPS. Here is an overall summary of the DPS role in general.</h2>
-    <p class="ff-innhold-p">DPS translates to Damage Per Second, in other words, the attackers. 
-    <br>DPS have high offensive stats that contribute to doing damage, and therefore their duty is to attack and eliminate targets as fast as possible. <br>
-        DPS make out the most of the party. It is normal to have two DPS in a four-man squad.</p>
-    <p class="ff-innhold-p">Their Limit Break is a special attack.</p>
-    <br>
-    <h2 id="ff-innhold-h2">Click on the tab to read more about the three different categories.</h2>
-<!--Fane-kode fått fra en venn-->
-	<div class="tabs">
-		<ul class="tab-list">
-			<!-- The data-tab has to be unique in this tab group -->
-			<li data-tab="tab-1"><a>Melee</a></li>
-			<li data-tab="tab-2"><a>Range</a></li>
-			<li data-tab="tab-3"><a>Magic</a></li>
-		</ul>
+        <!--Tittel-->
+        <h1 id="ff-innhold-Tittel">The Fierce DPS</h1> <!--Innhold-->
+        <h2 id="ff-innhold-h2">The DPS role is divided into three categories; Melee-DPS, Range-DPS and Magic-DPS. Here
+            is an overall summary of the DPS role in general.</h2>
+        <p class="ff-innhold-p">DPS translates to Damage Per Second, in other words, the attackers.
+            <br>DPS have high offensive stats that contribute to doing damage, and therefore their duty is to attack and
+            eliminate targets as fast as possible. <br>
+            DPS make out the most of the party. It is normal to have two DPS in a four-man squad.
+        </p>
+        <p class="ff-innhold-p">Their Limit Break is a special attack.</p>
+        <br>
+        <h2 id="ff-innhold-h2">Click on the tab to read more about the three different categories.</h2>
+        <!--Fane-kode fått fra en venn-->
+        <div class="tabs">
+            <ul class="tab-list">
+                <!-- The data-tab has to be unique in this tab group -->
+                <li data-tab="tab-1"><a>Melee</a></li>
+                <li data-tab="tab-2"><a>Range</a></li>
+                <li data-tab="tab-3"><a>Magic</a></li>
+            </ul>
 
-		<!-- use the same data-tab as one of the li elements above -->
-		<div class="tab-content" data-tab="tab-1">
-            <h2>Melee-DPS</h2>
-            <p>Melee-DPS attack with swords, knives, lances and so on. They have to get up close to the enemy to do serious damage, and have weaker ranged attacks.</p>
-            <p>With mediocre defense, the melee-DPS can take some damage before they fall to the ground.</p>
-            <p>Their Limit Break does high damage on ONE enemy.</p>
-            <div class="example"><img src="/Introduksjon-til-API/images/images_ff/Samurai.png" class="example" alt="Samurai"></div>
-		</div>
+            <!-- use the same data-tab as one of the li elements above -->
+            <div class="tab-content" data-tab="tab-1">
+                <h2>Melee-DPS</h2>
+                <p>Melee-DPS attack with swords, knives, lances and so on. They have to get up close to the enemy to do
+                    serious damage, and have weaker ranged attacks.</p>
+                <p>With mediocre defense, the melee-DPS can take some damage before they fall to the ground.</p>
+                <p>Their Limit Break does high damage on ONE enemy.</p>
+                <div class="example"><img src="/images/images_ff/Samurai.png" class="example" alt="Samurai"></div>
+            </div>
 
-		<div class="tab-content" data-tab="tab-2">
-			<h2>Range-DPS</h2>
-    <p>The range-DPS attacks from a distance with arrows, bullets or chakrams. Being able to attack over great ranges while moving makes them the most mobile category.</p>
-    <p>Range-DPS have an ability that increases movement speed outside of battle.</p>
-    <p>Their Limit Break does damge to all enemies in a straight line in front of them.</p>
-    <div class="example"><img src="/Introduksjon-til-API/images/images_ff/machinist.webp" class="example" alt="Bard"></div>
-		</div>
+            <div class="tab-content" data-tab="tab-2">
+                <h2>Range-DPS</h2>
+                <p>The range-DPS attacks from a distance with arrows, bullets or chakrams. Being able to attack over
+                    great ranges while moving makes them the most mobile category.</p>
+                <p>Range-DPS have an ability that increases movement speed outside of battle.</p>
+                <p>Their Limit Break does damge to all enemies in a straight line in front of them.</p>
+                <div class="example"><img src="/images/images_ff/machinist.webp" class="example" alt="Bard"></div>
+            </div>
 
-		<div class="tab-content" data-tab="tab-3">
-			<h2>Magic-DPS</h2>
-    <p>As the name says, they use magic, which means they often have to stand still and cast their spells, while also keeping an eye on how much magic they have remaining.</p>
-    <p>Magic-DPS have a big variety of spells, and can cast from far away. They don't have much defence and some attacks may interrupt their casting. Keep them from harm.</p>
-    <p>Their Limit Break will attack enemies in a targeted area.</p>
-    <div class="example"><img src="/Introduksjon-til-API/images/images_ff/blackMage.png" class="example" alt="Black Mage"></div>
-		</div>
-	</div>
+            <div class="tab-content" data-tab="tab-3">
+                <h2>Magic-DPS</h2>
+                <p>As the name says, they use magic, which means they often have to stand still and cast their spells,
+                    while also keeping an eye on how much magic they have remaining.</p>
+                <p>Magic-DPS have a big variety of spells, and can cast from far away. They don't have much defence and
+                    some attacks may interrupt their casting. Keep them from harm.</p>
+                <p>Their Limit Break will attack enemies in a targeted area.</p>
+                <div class="example"><img src="/images/images_ff/blackMage.png" class="example" alt="Black Mage"></div>
+            </div>
+        </div>
 
-	<div class="line"></div>
+        <div class="line"></div>
 
 
 
-<script src="/Introduksjon-til-API/js/script.js" defer></script>
+        <script src="/js/script.js" defer></script>
 </body>
+
 </html>
