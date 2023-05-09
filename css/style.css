@@ -1,0 +1,484 @@
+/* Globale regler */
+/*Forsiden for hovedprosjektet*/
+.forside {background-color: yellow;
+    color: red;
+    text-align: center;
+    align-items: center;
+}
+@media only screen and (max-width: 490px) {.forside{text-align: left; width: auto;}}
+
+.hoved-navigasjon {
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: bold;
+}
+@media only screen and (max-width: 490px) {.hoved-navigasjon {flex-direction: column;}}
+
+/* Vær-prosjekt*/
+.vaer {
+    background-image: linear-gradient(dodgerblue, yellow);
+    margin: auto;
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.center-mt {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/*bilderegler*/
+/*forside*/
+#selfie {
+    border-radius: 50%;
+}
+
+
+/* inputfield regler */
+
+input {
+    color: black;
+    line-height: 2em;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+}
+
+/* Heading regler */
+
+#varet-h2 {
+    margin-top: 0;
+}
+
+/* resultat regler */
+
+.results {
+    width: 300px;
+    text-align: center;
+}
+
+.result {
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.result img {
+    object-fit: contain;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#varet-h3 {font-weight: bold;}
+
+
+/*Style for aktiv læring forside*/
+
+.aktivlaering-f-h1 {position: absolute;
+    width: 320px;
+    height: 38px;
+    left: 120px;
+    top: 33px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    
+    color: #4169E1;
+    
+}
+
+#aktivlaering-navigasjon     {display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+position: absolute;
+width: 282px;
+height: 33px;
+left: 1003px;
+top: 45px;
+justify-content: space-around;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+
+color: #000000;
+}
+    
+.aktivlaering-f-h2 {position: absolute;
+    width: 506px;
+    height: 40px;
+    left: 476px;
+    top: 181px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.185em;
+}
+#aktivlaering-f-object {position: absolute;
+    width: 1315px;
+    height: 100px;
+    left: -18px;
+    top: 246px;
+    background: #4169E1;}
+
+#aktivlaering-innen {display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 1140px;
+    height: 40px;
+    left: 120px;
+    top: 251px;
+    font-size: x-large;
+    color: white;
+}
+
+#aktivlaering-infoTittel {position: absolute;
+    width: 189px;
+    height: 80px;
+    left: 144px;
+    top: 389px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    
+    color: #000000;   
+}
+
+#aktivlaering-infodesc {position: absolute;
+    width: 449px;
+    height: 430px;
+    left: 137px;
+    top: 499px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 34px;
+    
+    color: #000000;
+    }
+
+#aktivlaering-omTittel {position: absolute;
+    width: 117px;
+    height: 40px;
+    left: 75px;
+    top: 22px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    color: #ffffff;
+    
+}
+
+#aktivlaering-omDesc {position: absolute;
+    width: 449px;
+    height: 430px;
+    left: 75px;
+    top: 147px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 34px;
+    color: #ffffff;
+    }
+
+.aktivlaering-omOss {position: absolute;
+    width: 605px;
+    height: 100%;
+    left: 692px;
+    top: 346px;
+    background: #C4C4C4;
+}
+/*Alt markeres med "aktivlaering" for å gjøre det enklere å vite hvor de hører til
+Det samme kommer til å gjøres for resten av prosjektet i sin helhet*/
+
+/*Style kontakt oss (aktiv læring)*/
+/*k-al- blir prefixen her*/
+#k-al-h1 {position: absolute;
+    width: 320px;
+    height: 38px;
+    left: 120px;
+    top: 33px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    
+    color: #4169E1;
+    }
+
+#k-al-navigasjon {display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 282px;
+    height: 33px;
+    left: 1003px;
+    top: 45px;
+    justify-content: space-around;
+}
+
+#k-al-h2 {position: absolute;
+    width: 302px;
+    height: 40px;
+    left: 120px;
+    top: 208px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    /* identical to box height */
+    
+    letter-spacing: 0.185em;
+    
+    color: #000000;}
+
+#k-al-object {    position: absolute;
+    width: 1440px;
+    height: 29px;
+    left: 0px;
+    top: 278px;
+    background: #4169E1;}
+
+#k-al-kontaktinfo{position: absolute;
+    top: 307px;
+    left: 0px;
+    width: 1440px;
+    height: 747px;
+    background: #C4C4C4;
+}
+
+#k-al-henne {position: absolute;
+    width: 168px;
+    height: 239px;
+    height: 239px;
+    width: 168px;
+    left: 0;
+    top: 307px;
+    border-radius: 0px;; 
+}
+
+#k-al-ham {position: absolute;
+    width: 168px;
+    height: 193px;
+    height: 193px;
+    width: 168px;
+    left: 0px;
+    top: 578px;
+    border-radius: 0px;
+    }
+
+.k-al-Aktiv {position: absolute;
+    top: 329px;
+    left: 190px;
+    width: 398px;
+    height: 134px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.185em;
+    color: #000000;
+}
+
+.k-al-Læring {position: absolute;
+    top: 555px;
+    left: 190px;
+    width: 422px;
+    height: 134px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.185em;
+    color: #000000;
+    }
+
+.k-al-usikker {height: 213px;
+width: 403px;
+left: 1775px;
+top: -171px;
+
+    border-radius: nullpx;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 47px;
+
+color: #000000;
+    
+}
+
+#k-al-tittel3 {font-size: 40px;}
+
+
+
+
+/*Final fantasy XIV prosjekt (ff prefix)*/
+/*forside*/
+.ff-f-background {
+    background-image: url(/Introduksjon-til-API/images/images_ff/galaxy.jpg);
+    background-color: #cccccc;
+}
+
+.ff-f-innhold {
+    text-align: center;
+    color: white;
+}
+  
+  
+  #ff-f-tank {
+    color: royalblue;
+  }
+  
+  #ff-f-healer {
+    color: limegreen;
+  }
+  
+  #ff-f-dps {
+    color: crimson;
+  }
+  
+  .ff-f-ul {
+    list-style-type: none;
+    font-size: larger;
+    padding-left: 0px;
+  }
+  
+  #ff-f-a {color: white;}
+  @media only screen and (max-width: 490px) {img {width: 300px}}
+
+  /*style innholdssidene i ff*/
+  .ff-t-body {
+    background-color: #3f52b0;
+  }
+
+  .ff-healer {
+      background-color: #3c861c;
+    }
+  
+  .ff-innhold-p {
+    font-size: 17px;
+  }
+  
+  #ff-innhold-h2 {
+    font-size: 34px;
+  }
+  
+  /*generell kode for farging av navigasjon*/
+  #tank {
+    color: royalblue;
+  }
+  
+  #healer {
+    color: limegreen;
+  }
+  
+  #dps {
+    color: crimson;
+  }
+  
+  /*Generell kode for farging og regulering av tittel og meteor-logoen*/
+  #meteor {
+    height: 50px;
+  }
+  @media only screen and (max-width: 490px) {#meteor {
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;}
+  }
+    
+  
+  #ff-innhold-Tittel {
+    color: #daa520;
+    font-size: 68px;
+  }
+  
+  #ff-innhold-img {height: 390px;}
+
+  .ff-innhold-bold {font-weight: bold;}
+  /*resten av innholdssidene i ff-prosjektet bruker mye av samme kode.*/
+
+
+
+
+  /*dps har mer komplisert css*/
+  .ff-dps {
+    background-color: #ab2929;
+  }
+  
+  /* css-kode fått fra en venn*/
+  .tabs > ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    border-bottom: 1px solid #e7a247;
+    justify-content: space-around;
+  }
+  
+  .tabs li > a {
+    display: block;
+    padding: 0.5rem 0.75rem;
+  }
+  
+  .tabs li:hover {
+    background-color: #efd348;
+    cursor: pointer;
+  }
+  
+  .tabs li.active {
+    border-bottom: 2px solid #e7a247;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .tab-content {
+    text-align: center;
+  }
+  
+  .example {
+    height: 390px;
+  }
+  
