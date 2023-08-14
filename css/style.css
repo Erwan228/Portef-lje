@@ -1,6 +1,6 @@
 /* Globale regler */
 /*Forsiden for hovedprosjektet*/
-.forside {background-color: yellow;
+.forside {background-image: radial-gradient(red, yellow);
     color: red;
     text-align: center;
     align-items: center;
