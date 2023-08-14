@@ -1,3 +1,10 @@
+tr{
+height: 50px;
+}
+
+td{
+    width: 200px;
+}
 body{
-    background-color: aqua;
+    background-image: linear-gradient(lavender, whitesmoke);
 }
